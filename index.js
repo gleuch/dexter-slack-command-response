@@ -18,14 +18,12 @@ module.exports = {
         }
 
         var self = this;
-        var postData = {
-            data: {
-                text: text,
-                response_type: 'in_channel'
-            }
+        var data = {
+          text: text,
+          response_type: 'in_channel'
         };
 
-        rest.post(resp_url, postData).on('complete', function(result, response) {
+        rest.postJson(resp_url, data).on('complete', function(result, response) {
             if (response.statusCode != 200) {
                 return self.fail({
                     statusCode: response.statusCode,
