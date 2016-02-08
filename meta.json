@@ -1,0 +1,22 @@
+/*
+ * Metadata describing the module operation
+ */
+{
+    //Required. Inputs the module expects.
+    "inputs": [
+        {
+            "id": "text",
+            "title": "Message",
+            "type": "string"
+        },
+        {
+            "id": "response_url",
+            "title": "Response URL",
+            "type": "string"
+        },
+    ],
+    //Required. Outputs the module emits.
+    "outputs": [
+    ],
+    "title": "gleuch-slack-command-response" /* Required. A display name for the module */
+}

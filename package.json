@@ -1,0 +1,13 @@
+{
+  "name": "gleuch-slack-command-response",
+  "version": "0.0.1",
+  "description": "Post response to Slack slash commands using response url and in_channel response type",
+  "main": "index.js",
+  "author": "Greg Leuch",
+  "license": "ISC",
+  "private": true,
+  "dependencies": {
+    "lodash": "^3.9.3",
+    "restler": "^3.3.0"
+  }
+}
