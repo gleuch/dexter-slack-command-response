@@ -13,7 +13,7 @@
             "id": "response_url",
             "title": "Response URL",
             "type": "string"
-        },
+        }
     ],
     //Required. Outputs the module emits.
     "outputs": [
