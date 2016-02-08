@@ -1,7 +1,5 @@
-# Venmo Pay Dexter Module
-> This Dexter module takes a Venmo username, dollar amount, and payment note, and performs the API request to make the Venmo payment.
-This module currently requires a Venmo access token to be provided in an environment variable, however, when Dexter releases user-specific
-key value stores and OAuth support, this should pull the access token directly from the Dexter user. This is a good proof-of-concept for now.
+# Slack Slash Command Response
+> This Dexter module takes text and the Slach slash command response url to performs the API request to post a delayed slash command response.
 
 ## File Details
 ### index.js
